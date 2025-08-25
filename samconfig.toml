@@ -1,0 +1,10 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "updated-lambda-function-deployment"
+resolve_s3 = true
+s3_prefix = "updated-lambda-function-deployment"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
